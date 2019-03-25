@@ -1,0 +1,10 @@
+server:
+  #端口号
+  port: 8900
+
+spring:
+  application:
+    name: hsp-netty
+netty:
+  port: 18888
+  host: 192.168.3.101

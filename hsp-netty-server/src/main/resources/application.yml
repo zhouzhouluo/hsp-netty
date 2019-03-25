@@ -1,0 +1,13 @@
+server:
+  #端口号
+  port: 8801
+
+
+spring:
+  application:
+    name: hsp-netty-server1
+
+netty:
+  port: 8889
+
+logging.level.root: DEBUG
