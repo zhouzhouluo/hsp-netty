@@ -21,6 +21,11 @@ public class HspNettyClientApplication implements CommandLineRunner {
     }
 
 
+    /**
+     *
+     * @param args
+     * @throws Exception
+     */
     @Override
     public void run(String... args) throws Exception {
         nettyClient.init();
